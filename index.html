@@ -19,7 +19,11 @@
         -webkit-user-select: none;
         user-select: none;
         -webkit-touch-callout: none;
-        font-family: sans-serif;
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+          sans-serif;
+        font-weight: lighter;
+        font-size: large;
       }
       /* 왼쪽 메뉴 */
       #menu {
@@ -28,16 +32,18 @@
         left: 0;
         width: 100px;
         height: 100%;
-        padding: 10px;
-        /* 20에서 10으로 수정 */
+        padding: 5px;
+        /* 20에서 5로 수정 */
         box-sizing: border-box;
-        background: #fff;
+        background: #f5f6ee;
       }
       #menu a {
         display: block;
-        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 40px;
         cursor: pointer;
-        color: blue;
+        color: rgb(93, 98, 115);
       }
       /* iframe 영역: 메뉴(100px)를 뺀 나머지 화면 전체 */
       #stage {
@@ -58,9 +64,9 @@
   </head>
   <body>
     <div id="menu">
-      <a onclick="loadHomework('Homework1')">Homework1</a>
-      <a onclick="loadHomework('Homework2')">Homework2</a>
-      <a onclick="loadHomework('Homework3')">Homework3</a>
+      <a onclick="loadHomework('Homework1')"> ❥ Confetti</a>
+      <a onclick="loadHomework('Homework2')"> ❥ HW2</a>
+      <a onclick="loadHomework('Homework3')"> ❥ HW3</a>
       <!-- <a onclick="loadHomework('Homework4')">Homework4</a> -->
     </div>
 
